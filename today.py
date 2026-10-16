@@ -4,7 +4,7 @@ Runs daily via GitHub Actions. Uses only the standard library.
 
 Env:
     ACCESS_TOKEN  - GitHub token (repo + read:user) for the GraphQL / REST API
-    USER_NAME     - GitHub login (default: Varke)
+    USER_NAME     - GitHub login (default: alexdobrikov)
 """
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ import urllib.request
 from datetime import date
 
 TOKEN = os.environ["ACCESS_TOKEN"]
-USER = os.environ.get("USER_NAME", "Varke")
+USER = os.environ.get("USER_NAME", "alexdobrikov")
 BIRTHDAY = date(1999, 2, 13)
 
 LINE_W = 56   # panel width in characters, must match the SVG layout

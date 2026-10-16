@@ -1,4 +1,4 @@
-"""One-off builder: emits dark_mode.svg / light_mode.svg for Varke/Varke."""
+"""One-off builder: emits dark_mode.svg / light_mode.svg for alexdobrikov/alexdobrikov."""
 import html
 
 import os
